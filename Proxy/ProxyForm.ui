@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ProxyForm</class>
+ <widget class="QDialog" name="ProxyForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>710</width>
+    <height>587</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ProxyForm</string>
+  </property>
+  <widget class="QLabel" name="cliente">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cliente:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="server">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>20</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Server:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="enviar">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>540</y>
+     <width>88</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enviar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="spider">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>540</y>
+     <width>88</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Spider</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dump">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>540</y>
+     <width>88</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Dump</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="boxCliente">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>331</width>
+     <height>471</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="boxServer">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>50</y>
+     <width>331</width>
+     <height>471</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
